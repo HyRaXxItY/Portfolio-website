@@ -1,0 +1,25 @@
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+    &:hover {
+        animation: jello 1s;
+        // transform: translateY(-1.3rem);
+        // transition: all 0.09s ease-out;
+        color: #ffd700;
+    }
+}
+
+@for $i from 1 through 37 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i/10}s;
+    }
+}
