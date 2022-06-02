@@ -38,8 +38,9 @@
     animation-delay: 1s;
 }
 
-.container.contact-page,
-.container.about-page {
+// .container.contact-page,
+// .container
+.about-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -53,7 +54,7 @@
             font-size: 53px;
             font-family: 'Poppins';
             color: #ffd700;
-            font-weight: 400;
+            font-weight: 600;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
