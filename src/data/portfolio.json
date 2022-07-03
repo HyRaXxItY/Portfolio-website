@@ -1,0 +1,33 @@
+{
+    "portfolio": [{
+            "cover": "/portfolio/wordle.png",
+            "title": "Wordle Clone",
+            "description": "Using easy concept of data attributes this project was executed i.e. a fully working WORDLE clone.",
+            "url": "https://hyraxxity.github.io/Wordle/",
+            "stack": "JS, Html, Css",
+            "gitlink": "https://github.com/HyRaXxItY/Wordle"
+        },
+        {
+            "cover": "/portfolio/catto.png",
+            "title": "Catto Card",
+            "description": "Introductory Exercise to learn ReactJs, used generic Images and name generating API to make this website.",
+            "url": "https://hyraxxity.github.io/catto-card/",
+            "stack": "React JS, Html, Css",
+            "gitlink": "https://github.com/HyRaXxItY/catto-card"
+        }, {
+            "cover": "/portfolio/advguild.png",
+            "title": "AdvGuild",
+            "description": "A Heavily featured packed website that contains crud, auth and error handling. Map and Cloud image services were also used.",
+            "url": "https://advguild.herokuapp.com/",
+            "stack": "JS, Html, Css, MongoDB",
+            "gitlink": "https://github.com/HyRaXxItY/advGuild"
+        }, {
+            "cover": "/portfolio/netflix.png",
+            "title": "Netflix Clone",
+            "description": "Netflix Clone with NextJS framework. tmDB api was used to get the movie data and TailwindCSS was used for styling purpose with firebase as backend tool",
+            "url": "https://netflix-clone-hyraxxity.vercel.app",
+            "stack": "React JS, Html, Css, FireBase, Next JS",
+            "gitlink": "https://github.com/HyRaXxItY/Netflix-clone"
+        }
+    ]
+}
